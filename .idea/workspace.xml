@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c32a1ad-b65d-458d-bb65-f4d9fb2fb0d7" name="Changes" comment="Menambahkan package &quot;operator&quot;">
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/inputoutput/InputOutputFunction.java" afterDir="false" />
+    <list default="true" id="1c32a1ad-b65d-458d-bb65-f4d9fb2fb0d7" name="Changes" comment="Menambahkan package &quot;inputoutput&quot;">
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/array/InisiasiArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/array/LoopingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/array/MultiDimensionalArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +51,13 @@
       <recent name="com.dicoding.javafundamental.dasar" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserOutput">
-    <configuration name="InputOutputFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.inputoutput.InputOutputFunction" />
+  <component name="RunManager" selected="Application.MultiDimensionalArray">
+    <configuration name="InisiasiArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.array.InisiasiArray" />
       <module name="dicoding-java-fundamental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dicoding.javafundamental.inputoutput.*" />
+          <option name="PATTERN" value="com.dicoding.javafundamental.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorEquality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.operator.OperatorEquality" />
+    <configuration name="LoopingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.array.LoopingArray" />
       <module name="dicoding-java-fundamental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dicoding.javafundamental.operator.*" />
+          <option name="PATTERN" value="com.dicoding.javafundamental.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorUnary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.operator.OperatorUnary" />
+    <configuration name="MultiDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.array.MultiDimensionalArray" />
       <module name="dicoding-java-fundamental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dicoding.javafundamental.operator.*" />
+          <option name="PATTERN" value="com.dicoding.javafundamental.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiDimensionalArray" />
+        <item itemvalue="Application.LoopingArray" />
+        <item itemvalue="Application.InisiasiArray" />
         <item itemvalue="Application.UserOutput" />
         <item itemvalue="Application.UserBufferReader" />
-        <item itemvalue="Application.InputOutputFunction" />
-        <item itemvalue="Application.OperatorUnary" />
-        <item itemvalue="Application.OperatorEquality" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677512703786</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Menambahkan package &quot;inputoutput&quot;">
+      <created>1677512898343</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677512898343</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +183,7 @@
     <MESSAGE value=" Initialize Project" />
     <MESSAGE value="Menambahkan package &quot;dasar&quot; dan menambahkan library commons-lang3-3.9.jar" />
     <MESSAGE value="Menambahkan package &quot;operator&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menambahkan package &quot;operator&quot;" />
+    <MESSAGE value="Menambahkan package &quot;inputoutput&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menambahkan package &quot;inputoutput&quot;" />
   </component>
 </project>
