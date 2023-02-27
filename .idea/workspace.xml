@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c32a1ad-b65d-458d-bb65-f4d9fb2fb0d7" name="Changes" comment="Menambahkan package &quot;dasar&quot; dan menambahkan library commons-lang3-3.9.jar">
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/operator/OperatorAritmatika.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1c32a1ad-b65d-458d-bb65-f4d9fb2fb0d7" name="Changes" comment="Menambahkan package &quot;operator&quot;">
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/inputoutput/InputOutputFunction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,39 +48,13 @@
       <recent name="com.dicoding.javafundamental.dasar" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OperatorUnary">
-    <configuration name="OperatorAritmatika" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.operator.OperatorAritmatika" />
+  <component name="RunManager" selected="Application.UserOutput">
+    <configuration name="InputOutputFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.inputoutput.InputOutputFunction" />
       <module name="dicoding-java-fundamental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dicoding.javafundamental.operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperatorAssignment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.operator.OperatorAssignment" />
-      <module name="dicoding-java-fundamental" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dicoding.javafundamental.operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperatorConditional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.operator.OperatorConditional" />
-      <module name="dicoding-java-fundamental" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dicoding.javafundamental.operator.*" />
+          <option name="PATTERN" value="com.dicoding.javafundamental.inputoutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,13 +88,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserBufferReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.inputoutput.UserBufferReader" />
+      <module name="dicoding-java-fundamental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dicoding.javafundamental.inputoutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.inputoutput.UserOutput" />
+      <module name="dicoding-java-fundamental" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dicoding.javafundamental.inputoutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UserOutput" />
+        <item itemvalue="Application.UserBufferReader" />
+        <item itemvalue="Application.InputOutputFunction" />
         <item itemvalue="Application.OperatorUnary" />
         <item itemvalue="Application.OperatorEquality" />
-        <item itemvalue="Application.OperatorConditional" />
-        <item itemvalue="Application.OperatorAssignment" />
-        <item itemvalue="Application.OperatorAritmatika" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677512215208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Menambahkan package &quot;operator&quot;">
+      <created>1677512703786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677512703786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +172,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=" Initialize Project" />
     <MESSAGE value="Menambahkan package &quot;dasar&quot; dan menambahkan library commons-lang3-3.9.jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menambahkan package &quot;dasar&quot; dan menambahkan library commons-lang3-3.9.jar" />
+    <MESSAGE value="Menambahkan package &quot;operator&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menambahkan package &quot;operator&quot;" />
   </component>
 </project>
