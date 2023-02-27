@@ -1,4 +1,7 @@
-![Twitter header - 1](https://user-images.githubusercontent.com/117266406/221605604-eb1dacec-51db-4744-84be-62eb14f5143f.png)
+![Java Cover - Dicoding Java Fundamental](https://user-images.githubusercontent.com/117266406/221612223-b818dbc6-aa96-4d60-b2c1-1d59bee60b89.png)
+
+
+<br>
 
 # Dicoding Java Fundamental
 Repositori untuk menampung hasil belajar dari kelas **Memulai Pemrograman Dengan java Dicoding**
