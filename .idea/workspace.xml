@@ -9,11 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c32a1ad-b65d-458d-bb65-f4d9fb2fb0d7" name="Changes" comment="Menambahkan package percabangan">
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/perulangan/DoWhile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/perulangan/For.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/perulangan/ForBersarang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/perulangan/While.java" afterDir="false" />
+    <list default="true" id="1c32a1ad-b65d-458d-bb65-f4d9fb2fb0d7" name="Changes" comment="Menambahkan package perulangan">
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/collection/ListPlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/collection/MapPlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/collection/Planet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dicoding/javafundamental/collection/SetPlanet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="com.dicoding.javafundamental.dasar" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DoWhile">
+  <component name="RunManager" selected="Application.MapPlanet">
     <configuration name="DoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.perulangan.DoWhile" />
       <module name="dicoding-java-fundamental" />
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.perulangan.For" />
+    <configuration name="ListPlanet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.collection.ListPlanet" />
       <module name="dicoding-java-fundamental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dicoding.javafundamental.perulangan.*" />
+          <option name="PATTERN" value="com.dicoding.javafundamental.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForBersarang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.perulangan.ForBersarang" />
+    <configuration name="MapPlanet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.collection.MapPlanet" />
       <module name="dicoding-java-fundamental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dicoding.javafundamental.perulangan.*" />
+          <option name="PATTERN" value="com.dicoding.javafundamental.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchWithoutBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.percabangan.SwitchWithoutBreak" />
+    <configuration name="SetPlanet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dicoding.javafundamental.collection.SetPlanet" />
       <module name="dicoding-java-fundamental" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dicoding.javafundamental.percabangan.*" />
+          <option name="PATTERN" value="com.dicoding.javafundamental.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MapPlanet" />
+        <item itemvalue="Application.SetPlanet" />
+        <item itemvalue="Application.ListPlanet" />
         <item itemvalue="Application.DoWhile" />
         <item itemvalue="Application.While" />
-        <item itemvalue="Application.ForBersarang" />
-        <item itemvalue="Application.For" />
-        <item itemvalue="Application.SwitchWithoutBreak" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677515740315</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Menambahkan package perulangan">
+      <created>1677524247484</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677524247484</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +225,7 @@
     <MESSAGE value="Menambahkan package &quot;array&quot;" />
     <MESSAGE value="Mempaketkan kelas Main dari package dasar menjadi JAR" />
     <MESSAGE value="Menambahkan package percabangan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menambahkan package percabangan" />
+    <MESSAGE value="Menambahkan package perulangan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menambahkan package perulangan" />
   </component>
 </project>
